@@ -291,6 +291,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 45px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -729,6 +730,9 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 570px;
+    height: 270px;
+    object-fit: contain;
 }
 
 .portfolio-row {
@@ -765,7 +769,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {

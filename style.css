@@ -30,6 +30,7 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     background-color: #F3976C;
+    background-size: cover;
     padding: 0 50px;
     position: relative;
 }

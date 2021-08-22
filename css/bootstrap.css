@@ -3103,8 +3103,8 @@ output {
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
+    color: #000;
+    background-color: #ece6e682;
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -3119,7 +3119,7 @@ output {
 }
 
 .form-control {
-    color: #999;
+    
     opacity: 1
 }
 

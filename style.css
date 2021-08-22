@@ -305,7 +305,8 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -340,6 +341,12 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.title {
+    background-color: #F3976C !important;
+    color: #000 !important;
+    font-size: 22px;
 }
 
 @media (min-width: 768px) {
@@ -627,7 +634,6 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
     color: #575757!important;
 }
 
@@ -997,9 +1003,7 @@ footer p {
     .voffset-lg {
         margin-top: 30px;
     }
-    form {
-        padding: 5px;
-    }
+    
     .close-lightbox {
         display: inline-block;
     }
